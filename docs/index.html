@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; frame-src https://accounts.google.com/gsi/; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://accounts.google.com/gsi/; img-src 'self' data: https://*.googleusercontent.com; font-src 'self'; media-src 'none'; worker-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1d3a6e">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="RGUKT Ongole Project Database — minor projects, major projects, internships and other student work.">
+  <title>RGUKT Ongole Project Database</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/framebust.js"></script>
+  <script src="js/config.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="vendor/chart.umd.min.js" defer></script>
+  <script src="js/core.js" defer></script>
+  <script src="js/formkit.js" defer></script>
+  <script src="js/student.js" defer></script>
+  <script src="js/admin.js" defer></script>
+  <script src="js/super.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to main content</a>
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="" class="brand-logo" width="40" height="40">
+      <div>
+        <div class="brand-title">RGUKT Ongole Project Database</div>
+        <div class="brand-sub">Rajiv Gandhi University of Knowledge Technologies · Ongole Campus</div>
+      </div>
+    </div>
+    <div id="userbox" class="userbox" hidden></div>
+  </header>
+
+  <main id="app" class="app" tabindex="-1">
+    <div class="center-pad"><div class="spinner" aria-label="Loading"></div></div>
+  </main>
+
+  <footer class="footer">
+    <span>© RGUKT Ongole · Project Database</span>
+    <span>Data is stored securely in the institutional Google Drive. Access is logged.</span>
+  </footer>
+
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <div id="busy" class="busy" hidden><div class="spinner"></div><div id="busy-text">Please wait…</div></div>
+
+  <noscript><p class="center-pad">This application requires JavaScript.</p></noscript>
+</body>
+</html>
