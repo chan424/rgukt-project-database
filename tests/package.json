@@ -1,0 +1,13 @@
+{
+  "name": "rgukt-ongole-project-database-tests",
+  "private": true,
+  "description": "Runs backend/Code.gs against in-memory mocks of Google services, and drives the frontend in Chrome.",
+  "scripts": {
+    "test": "node api.test.js",
+    "test:ui": "node ui.test.js",
+    "test:all": "node api.test.js && node ui.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0"
+  }
+}
